@@ -32,7 +32,7 @@ app.add_middleware(
         "http://localhost:3000",
         "https://localhost:3000", 
         "https://*.vercel.app",  # Allow all Vercel domains
-        "https://your-nextjs-app.vercel.app",  # Replace with your actual Vercel URL
+        "https://mindbridge-alpha.vercel.app",  # Replace with your actual Vercel URL
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
